@@ -1,0 +1,13 @@
+[package]
+name = "rustos-net"
+version = "0.1.0"
+edition = "2021"
+description = "RustOS networking stack: Ethernet, ARP, IPv4, ICMP, UDP, TCP and sockets (no_std)"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "rustos_net"
+path = "src/lib.rs"
+
+[profile.dev]
+panic = "abort"
